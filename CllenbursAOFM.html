@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cllenbur's Academy Survey form</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Cllenbur's Academy Survey Form</h1>
+
+<fieldset class="description">
+<p class="des" id="description">Hey! Welcome to my coding project. I'm learning Web development using HTML and CSS code, the following is a series of random questions based on the role-play! If you meet a question that doesn't make much sense; It's simply me checking off an objective. Okay bye have fun!</p>
+</fieldset>
+ <br>
+<form action="https://formsubmit.co/cllenbursacademyom@gmail.com" id="survey-form" method="post" onsubmit="sendEmail(); reset(); return false;">
+
+<fieldset>
+<h2>Basic Information</h2>
+
+<label for="name" id="name-label">Enter your OC's name <input id="name" type="Text" name="name" placeholder="John Doe" required></label>
+
+<label for="email" id="email-label">Enter your email <input id="email" type="email" name="email" placeholder="JohnDoe@gmail.com" required></label>
+
+<label for="number" id="number-label">Enter your fav number <input id="number" name="number" type="number" min="1" max="100000" placeholder="69" required</label>
+
+<label for="terms-and-conditions">I accept the <a href="https://drive.google.com/uc?export=download&id=1Qia3ybT2AGdgXMqahVn2KBrYfFNPwQjc">terms and conditions</a>. <input type="checkbox" id="terms-and-conditions" class="inline" value="terms-and-conditions" required></label>
+
+<label for="security-policy">I accept the <a href="https://drive.google.com/uc?export=download&id=1JtIJsDodO0DWtmdUclQqIiIiVZD8kYnB">security policy</a>. <input type="checkbox" id="security-policy" class="inline" value="security-policy" required></label>
+</fieldset>
+
+<hr class="hr">
+
+<fieldset>
+   <h2 class="SQ">Survey Questions</h2>
+<br>
+<label for="Who's your favourite Teacher?" class="fs">Who's your favourite Teacher?<select id="Who's your favourite Teacher?" name="Who's your favourite Teacher?" required>
+<option value="No option selected" >No option selected</option>
+<option value="Spiridoula (Spiri)">Spiridoula (Spiri)</option>
+<option value="Anuva">Anuva</option>
+<option value="Adira">Adira</option>
+<option value="Joshua Dahl | Navi">Joshua Dahl | Navi</option>
+<option value="Vincent">Vincent</option>
+<option value="Samael (Sam)">Samael (Sam)</option>
+<option value="Amoris ">Amoris </option>
+<option value="Astrea">Astrea </option>
+<option value="Yvette">Yvette </option></select></label>
+</fieldset>
+<br>
+<fieldset>
+<label class="fs">Are you lying?</label> 
+<label for="yes-1">Yes<input name="Are-you-lying-1" value="yes-1" type="radio" class="inline" required></label> 
+<label for="no-1">No<input type="radio" name="Are-you-lying-1" value="no-1" class="inline" required></label>
+</fieldset>
+<br>
+<fieldset>
+<label for="Who's most handsome?" class="fs">Who's most handsome?<select id="Who's most handsome?" name="Who's most handsome?">
+<option value="No option selected">No option selected</option>
+<option value="Mr. Anuva" required>Mr. Anuva</option></select></label>
+</fieldset>
+<br>
+<fieldset>
+<label class="fs">Are you lying?</label> 
+<label for="Are-you-lying-no-2">No<input name="Are-you-lying-2" value="no-2" type="radio" class="inline" required></label> 
+<label for="Are-you-lying-never">Never<input type="radio" name="Are-you-lying-2" value="never" class="inline" required></label>
+</fieldset>
+<br>
+<fieldset>
+<label for="Which is your favourite class?" class="fs">Which is your favourite class?<select id="Which is your favourite class?" name="Which is your favourite class?" required>
+<option value="No-option-selected">No option selected</option>
+<option value="history">History</option>
+<option value="emissions">Emissions</option>
+<option value="transmutation">Transmutation</option>
+<option value="creatures">Creatures</option>
+<option value="divinations-and-dark-magic">Divinations and dark magic</option>
+<option value="plants-and-potions">Plants and potions</option>
+<option value="cosmetics-and-gears">Cometics and gears</option</select></label></select>
+</fieldset>
+<br>
+<fieldset >
+<label class="fs">What would you like to see improved in the role-play?</label>
+<label for="world-building">World building. <input type="checkbox" id="world-building" class="inline" value="World building."></label>
+<label for="story">Story development. <input type="checkbox" id="story" class="inline" value="story"></label>
+<label for="class-sessions">Class sessions. <input type="checkbox" id="class-sessions" class="inline" value="class-sessions"></label>
+<label for="lore">Lore development. <input type="checkbox" id="lore" class="inline" value="lore"></label>
+<label for="events-and-holidays">In world Events/Holidays. <input type="checkbox" id="events-and-holidays" class="inline" value="events-and-holidays"></label>
+<label for="inclusion">Inclusion <input type="checkbox" id="inclusion" class="inline" value="inclusion"></label>
+<label for="immersion">Overall Immersion. <input type="checkbox" id="immersion" class="inline" value="immersion"></label>
+<label for="statisfied">Nothing. The role-play meets my satisfaction. <input type="checkbox" id="statisfied" class="inline" value="statisfied"></label>
+</fieldset>
+
+<br>
+
+<fieldset>
+<label class="fs">Additional Comments. (Tell me whatever you want.)
+<textarea placeholder="I like bread...a lot. Bread is simply wonderful, it's aroma, versatile flavors, and ability to bring people together make it an irreplaceable delight in our lives." id="additional-comments" name="additional comments" rows="4" cols="4"></textarea></label>
+<fieldset>
+<br>
+<br>
+  <hr>
+
+<input type="submit" value="Submit" id="submit">
+
+</form>
+</body>
+</html>

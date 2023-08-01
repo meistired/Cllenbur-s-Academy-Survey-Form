@@ -1,0 +1,70 @@
+body{
+    margin:0; 
+  color: rgb(50, 50, 50);
+ background-image:url(https://i.pinimg.com/736x/1a/98/ce/1a98ceef765dbeecb38315a15daaadcd.jpg); font-family: Tahoma ;
+background-size: cover;}
+  
+
+  h1{color: #c7d1c7;
+      text-align:center;
+        margin: 1em auto; font-family: Georgia}
+  
+        .description{border:none;
+  background-color: rgba(37, 48, 38, 0.5);}
+
+
+  hr{background-color:#5d5854; border: none; height: 4px; width: 95%; }
+  
+  
+  .des{text-align: center;
+  color:#c6cfc6;
+  font-size: 18px; font-family: Tahoma ;}
+  
+  form{
+    max-width: 750px;
+    min-width: 400px;
+    align-self: center;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: rgba(130, 126, 123, 0.95);}
+  
+  fieldset{padding-bottom: 1%; padding-top: 1%; border: none;}
+  
+  .SQ{text-align: center;}
+  
+  label{margin: 0.5rem 0; display: block; font-size: 17px;}
+  
+  .fs{font-size:18; font-weight: bold;}
+  
+  
+  
+    input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 3em;
+    background-color:#6e6b67;
+    border:#5b5854;
+    color: #282727; font-size:16px; }
+
+    input[type="checkbox"]{accent-color: #4e4a4a;}
+
+    input[type="radio"]{accent-color: #4e4a4a;}
+  
+   textarea{background-color: #5b5854;}
+  
+  input[type="text"]::-webkit-input-placeholder{color: #565452;}
+  
+  input[type="email"]::-webkit-input-placeholder{color: #565452;}
+  
+  input[type="number"]::-webkit-input-placeholder{color: #565452;}
+  
+  .inline{  width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle}
+  
+  input[type="submit"]{background-color:#282727; color:#827e7b; font-size:18px;  font-weight:bold;}
+  
+  select{padding: 2px;}
+
